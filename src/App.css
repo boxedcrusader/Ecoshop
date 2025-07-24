@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.full-width-gallery {
+  width: 100% !important;
+  height: 100% !important;
+}
+.slide-next {
+  transform: translateX(-100%);
+}
+
+.slide-prev {
+  transform: translateX(100%);
+}
